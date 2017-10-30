@@ -167,3 +167,9 @@ pip-log.txt
 .DS_Store
 dub.selections.json
 .dub/
+
+
+###############
+## VoidBlaster
+###############
+lib/
