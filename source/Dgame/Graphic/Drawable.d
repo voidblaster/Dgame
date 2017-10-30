@@ -26,7 +26,7 @@ module Dgame.Graphic.Drawable;
 package import Dgame.Window.Window;
 
 /**
- * Drawable is the base class for objects which can be drawn.
+ * Drawable is the interface for objects which can be drawn.
  * 
  * Author: Randy Schuett (rswhite4@googlemail.com)
  */
