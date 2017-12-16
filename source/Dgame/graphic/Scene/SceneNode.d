@@ -1,12 +1,12 @@
-module Dgame.Scene.SceneNode;
+module Dgame.Graphic.Scene.SceneNode;
 
 private:
 
 import std.algorithm.mutation : remove;
 import std.algorithm.searching : canFind;
 
+import Dgame.Graphic.Scene.DrawableNode;
 import Dgame.Graphic.Transformable;
-import Dgame.Scene.DrawableNode;
 
 public:
 

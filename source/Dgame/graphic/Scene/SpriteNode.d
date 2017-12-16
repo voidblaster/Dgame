@@ -1,9 +1,9 @@
-module Dgame.Scene.SpriteNode;
+module Dgame.Graphic.Scene.SpriteNode;
 
 private:
 
+import Dgame.Graphic.Scene.SceneNode;
 import Dgame.Graphic.Sprite;
-import Dgame.Scene.SceneNode;
 import Dgame.Window.Window;
 
 public:

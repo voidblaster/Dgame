@@ -1,9 +1,9 @@
-module Dgame.Scene.DrawableNode;
+module Dgame.Graphic.Scene.DrawableNode;
 
 private:
 
 import Dgame.Graphic.Drawable;
-import Dgame.Scene.Node;
+import Dgame.Graphic.Scene.Node;
 
 public:
 

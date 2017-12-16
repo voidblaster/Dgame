@@ -2,6 +2,6 @@ module Dgame.Scene;
 
 public:
 
-import Dgame.Scene.DrawableNode;
-import Dgame.Scene.SceneNode;
-import Dgame.Scene.SpriteNode;
+import Dgame.Graphic.Scene.DrawableNode;
+import Dgame.Graphic.Scene.SceneNode;
+import Dgame.Graphic.Scene.SpriteNode;

@@ -1,4 +1,4 @@
-module Dgame.Scene.Node;
+module Dgame.Graphic.Scene.Node;
 
 public:
 
