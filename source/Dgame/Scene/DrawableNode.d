@@ -3,6 +3,7 @@ module Dgame.Scene.DrawableNode;
 private:
 
 import Dgame.Graphic.Drawable;
+import Dgame.Scene.Node;
 
 public:
 
@@ -11,9 +12,9 @@ import Dgame.Window.Window;
 /**
  * DrawableNode is the interface for nodes which can be drawn.
  *
- * Author: Elias Batek
+ * Author: Elias Batek (0xEAB)
  */
-interface DrawableNode : Drawable {
+interface DrawableNode(NodeType) : Drawable, Node!(NodeType) {
     /**
      * Draws the node itself only
      */
@@ -21,7 +22,7 @@ interface DrawableNode : Drawable {
     void drawCurrent(ref const Window) nothrow;
 
     /**
-     * Draws the node's children
+     * Draws this node's children only
      */
     @nogc
     void drawChildren(ref const Window) nothrow;
